@@ -5,5 +5,5 @@ path_images = './data/clothing-dataset-small-master/train'
 
 sim_clothing = ImageSimilarity(path_images)
 sim_clothing.create_similarity_model()
-
+sim_clothing.explore_similarities(1)
 
